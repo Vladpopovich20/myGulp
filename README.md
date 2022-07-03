@@ -1,25 +1,25 @@
 # Сборка проекта на Gulp 4
-Быстро настроить сборку вашего проекта на Gulp и писать код на:
+Швидко налаштувати складання вашого проекту на Gulp і писати код на:
 - HTML, PUG
 - CSS, SCSS, SASS, LESS, STYLUS
 - Java Script, Type Script, Coffee Script
 
-## Функционал сборки
-- компиляция препроцессора PUG
-- минификация HTML
-- компиляция препроцессоров LESS, SASS, STYLUS
-- минификация CSS
-- автоматическое добавление префиксов CSS
-- транспиляция языков Type Script и Coffee Script
-- преобразования кода ECMAScript 2015 + в обратно совместимую версию JavaScript с помощью Babel
-- минификация JavaScript
-- объединение нескольких файлов JavaScript в один
-- сжатие изображений
-- отслеживание новых изображений, которые еще не были сжаты
-- отслеживание изменений в файлах и автоматический запуск повторной обработки
-- генерация sourcemaps
-- отображение размеров файлов в терминале
-- локальный сервер с автоматическим обновлением страницы при изменении файлов
+## Функціонал складання
+- компіляція препроцесора PUG
+- мініфікація HTML
+- компіляція препроцесорів LESS, SASS, STYLUS
+- мініфікація CSS
+- автоматичне додавання префіксів CSS
+- транспіляція мов Type Script та Coffee Script
+- перетворення коду ECMAScript 2015+ у зворотно сумісну версію JavaScript за допомогою Babel
+- мініфікація JavaScript
+- об'єднання декількох файлів JavaScript в один
+- стиснення зображень
+- відстеження нових зображень, які ще не були стиснуті
+- відстеження змін у файлах та автоматичний запуск повторної обробки
+- генерація sourcemaps
+- Відображення розмірів файлів у терміналі
+- локальний сервер з автоматичним оновленням сторінки під час зміни файлів
 
 ## Input
 || HTML | Styles | Scripts | Images |
@@ -32,32 +32,32 @@
 |:---|:------:|:-----:|:----:|:-----:|
 | **Путь** | dist/ | dist/css/style.min.css | dist/js/main.min.js | dist/img/ |
 
-## Зупуск:  
-1. Скачать все файлы проекта  
-2. В терминале перейти в каталог проекта  
-3. Выполнить команду: npm i (должен быть установлен node.js)  
-4. Создать каталоги и файлы
-5. Выполнить команду: gulp (запуск таска default)  
-6. Писать свой код и наслаждаться автоматической сборкой проекта. 
+## Зупуск:
+1. Завантажити всі файли проекту
+2. У терміналі перейти до каталогу проекту
+3. Виконати команду: npm i (має бути встановлений node.js)
+4. Створити каталоги та файли
+5. Виконати команду: gulp (запуск тяга default)
+6. Писати свій код та насолоджуватися автоматичним складанням проекту.
 
 ## Используемые NPM пакеты
 [gulp](https://www.npmjs.com/package/gulp) Сборщик Gulp  
-[gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin) Минификация HTML файлов  
-[gulp-pug](https://www.npmjs.com/package/gulp-pug) Pug препроцессор HTML кода  
-[gulp-less](https://www.npmjs.com/package/gulp-less) Компиляция Less файлов   
-[gulp-stylus](https://www.npmjs.com/package/gulp-stylus) Компиляция Styl файлов  
-[sass](https://www.npmjs.com/package/sass) Компилятор Sass  
-[gulp-sass](https://www.npmjs.com/package/gulp-sass) Компиляция Sass и Scss файлов  
-[gulp-uglify](https://www.npmjs.com/package/gulp-uglify) Сжатие и оптимизация Java Script кода  
-[gulp-coffee](https://www.npmjs.com/package/gulp-coffee) Преобразует Coffee Script в Java Script  
-[gulp-typescript](https://www.npmjs.com/package/gulp-typescript) Преобразует Type Script в Java Script  
-[typescript](https://www.npmjs.com/package/typescript) Язык Type Script  
-[gulp-babel](https://www.npmjs.com/package/gulp-babel) Преобразует Java Script в старый стандарт  
+[gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin) Мініфікація HTML файлів
+[gulp-pug](https://www.npmjs.com/package/gulp-pug) Pug препроцесор HTML кода  
+[gulp-less](https://www.npmjs.com/package/gulp-less) Компіляція Less файлів   
+[gulp-stylus](https://www.npmjs.com/package/gulp-stylus)  КомпіляціяS tyl файлів  
+[sass](https://www.npmjs.com/package/sass)  Компілятор Sass  
+[gulp-sass](https://www.npmjs.com/package/gulp-sass)  Компіляція Sass і Scss файлів  
+[gulp-uglify](https://www.npmjs.com/package/gulp-uglify) Стиснення та оптимізація Java Script коду
+[gulp-coffee](https://www.npmjs.com/package/gulp-coffee) Перетворює Coffee Script на Java Script
+[gulp-typescript](https://www.npmjs.com/package/gulp-typescript) Перетворює Type Script на Java Script
+[typescript](https://www.npmjs.com/package/typescript)Мова Type Script 
+[gulp-babel](https://www.npmjs.com/package/gulp-babel) Перетворює Java Script на старий стандарт 
 [@babel/core](https://www.npmjs.com/package/@babel/core) Ядро Babel  
-[@babel/preset-env](https://www.npmjs.com/package/@babel/preset-env) Пресет для компиляции Babel  
-[gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css) Минификация и оптимизация CSS файлов   
-[del](https://www.npmjs.com/package/del) Удаление каталогов и файлов  
-[gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps) Карта строк кода для инструментов  разработчика   
+[@babel/preset-env](https://www.npmjs.com/package/@babel/preset-env) Пресе для компіляції Babel
+[gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css) Мініфікація та оптимізація CSS файлів
+[del](https://www.npmjs.com/package/del) Видалення каталогів та файлів
+[gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps) Карта рядків коду для інструментів розробника
 [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer) Автоматическое добавление префиксов в CSS   
 [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin) Сжатие изображений   
 [gulp-concat](https://www.npmjs.com/package/gulp-concat) Объединение нескольких файлов в один  
